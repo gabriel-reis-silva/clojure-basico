@@ -262,7 +262,66 @@ failed-protagonist-names
   (str "Two parameters! That's nothing! Pah! I will smoosh them "
        "together to spite you! " x y))
 
-(clojure.set/difference (set [1 2 3 4 5 8 9])  (set [2 3 4 5 6 7 1 8]))
+;;Arity overloading is one way to provide default values for arguments. 
+;;In the following example, "karate" is the default argument for the chop-type parameter:
+;;
+
+(defn x-chop
+  "Describe the kind of chop you're inflicting on someone"
+  ([name chop-type]
+   (str "I " chop-type " chop " name "! Take that!"))
+  ([name]
+   (x-chop name "karate")))
+
+(x-chop "kick" "Django")
+(x-chop "Chris")
+
+
+;;Aqui vemos duas funções totalmente não relacionadas
+(defn weird-arity
+  ([]
+   "Destiny dressed you this morning, my friend, and now Fear is
+     trying to pull off your pants. If you give up, if you give in,
+     you're gonna end up naked with Fear just standing there laughing
+     at your dangling unmentionables! - the Tick")
+  ([number]
+   (inc number)))
+
+(weird-arity)
+(weird-arity 2)
+
+;; variable-arity functions
+;; nesse caso colocaremos o resto dos argumentos numa lista
+
+(defn codger-communication
+  [whippersnapper]
+  (str "Get off my lawn, " whippersnapper "!!!"))
+
+(defn codger
+   [& whippersnappers]
+  (map codger-communication whippersnappers))
+
+(codger "Billy" "Anne-Marie" "The Incredible Bulk")
+
+;;Assim os argumentos são tratados como uma lista
+;;Então o & faz com que o parametro seguinte seja opcional 
+;;Então, os valores que "ultrapassam" a quantidade de vetores
+;;São colocados em listas ou coleções
+
+(defn favorite-things
+  [name & things]
+  (str "Hi, " name ", here are my favorite things: "
+       (clojure.string/join ", " things)))
+
+(favorite-things "pessoal" "CS" "Ela" "Música")
+
+;;Destructuring Vincula nomes a valores dentro de uma coleção
+
+(defn my-first
+  [[first-thing]] ; Notice that first-thing is within a vector
+  first-thing)
+
+(my-first ["PC" "bike" "war-axe"])
 
 
 
