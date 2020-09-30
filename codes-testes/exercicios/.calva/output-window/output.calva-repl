@@ -16,48 +16,106 @@
 ;   - File URLs in stacktrace frames are peekable and clickable.
 clj::exercicios.core=> 
 ; Jack-in done.
-#{9}
+; Evaluating file: brave-do-things.clj
+Success!
+Pode ser qualquer fita no mesmo if
+Success!
+; WARNING: name already refers to: #'clojure.core/name in namespace: brave-do-things, being replaced by: #'brave-do-things/name
+"PC"
 clj::brave-do-things=> 
-#'brave-do-things/x-chop
+"PC"
 clj::brave-do-things=> 
-"I Dei um rodo chop Gabriel! Take that!"
+"Hi, pessoal, here are my favorite things: CS, Ela, Música"
 clj::brave-do-things=> 
-"I Django chop kick! Take that!"
+#'brave-do-things/my2-first
 clj::brave-do-things=> 
-"I karate chop kick! Take that!"
+"bike"
 clj::brave-do-things=> 
-"I karate chop Chris! Take that!"
+#'brave-do-things/my2-first
 clj::brave-do-things=> 
-#'brave-do-things/weird-arity
+"PC"
 clj::brave-do-things=> 
-3
+#'brave-do-things/chooser
 clj::brave-do-things=> 
-"Destiny dressed you this morning, my friend, and now Fear is\n     trying to pull off your pants. If you give up, if you give in,\n     you're gonna end up naked with Fear just standing there laughing\n     at your dangling unmentionables! - the Tick"
+Your first choice is: Marmalade
+Your second choice is: Handsome Jack
+We're ignoring the rest of your choices. Here they are in case you need to cry over them: Pigpen, Aquaman
+nil
 clj::brave-do-things=> 
-"Destiny dressed you this morning, my friend, and now Fear is\n     trying to pull off your pants. If you give up, if you give in,\n     you're gonna end up naked with Fear just standing there laughing\n     at your dangling unmentionables! - the Tick"
+Your first choice is: Marmalade
+Your second choice is: Handsome Jack
+We're ignoring the rest of your choices. Here they are in case you need to cry over them: Pigpen, Aquaman, Aquaman, Aquaman
+nil
 clj::brave-do-things=> 
-3
+Your first choice is: Marmalade
+Your second choice is: Handsome Jack
+We're ignoring the rest of your choices. Here they are in case you need to cry over them: Pigpen, Aquaman, Spiderman, Superman
+nil
 clj::brave-do-things=> 
-
-
-; Syntax error compiling at (d:\Users\gabsg\Documents\PayGo\Repo\clojure-basico\codes-testes\exercicios\src\exercicios\brave-do-things.clj:302:3).
-; Unable to resolve symbol: codger-communication in this context
+#'brave-do-things/announce-treasure-location
+clj::brave-do-things=> 
+Treasure lat: 28.22
+Treasure lng: 81.33
+nil
+clj::brave-do-things=> 
+#'brave-do-things/announce-treasure-location2
+clj::brave-do-things=> 
+Treasure lat: 28.22
+Treasure lng: 81.33
+nil
+clj::brave-do-things=> 
+#'brave-do-things/number-comment
+clj::brave-do-things=> 
+"That number's OK, I guess"
+clj::brave-do-things=> 
+"Oh my gosh! What a big number!"
+clj::brave-do-things=> 
+("Hi, Darth Vader" "Hi, Mr. Magoo")
+clj::brave-do-things=> 
+24
+clj::brave-do-things=> 
+24
+clj::brave-do-things=> 
+#'brave-do-things/my-special-multiplier
+clj::brave-do-things=> 
+36
+clj::brave-do-things=> 
+24
+clj::brave-do-things=> 
+("Hi, Darth Vader" "Hi, Mr. Magoo")
+clj::brave-do-things=> 
+#function[brave-do-things/eval139447/fn--139448]
+clj::brave-do-things=> 
+9
+clj::brave-do-things=> 
+24
+clj::brave-do-things=> 
+8
+clj::brave-do-things=> 
+24
+clj::brave-do-things=> 
+"cornbread and butter beans"
+clj::brave-do-things=> 
+(1 "blarg" :yip)
+clj::brave-do-things=> 
+(1 "blarg" :yip :pipi)
+clj::brave-do-things=> 
+(1 "blarg" :yip :pipi "s")
+clj::brave-do-things=> 
+#'brave-do-things/inc-maker
+clj::brave-do-things=> 
+#'brave-do-things/inc3
+clj::brave-do-things=> 
+10
+clj::brave-do-things=> 
+#'hobbit/asym-hobbit-body-parts
+clj::hobbit=> 
+; Syntax error compiling at (d:\Users\gabsg\Documents\PayGo\Repo\clojure-basico\codes-testes\exercicios\src\exercicios\hobbit.clj:26:1).
+; Unable to resolve symbol: defn in this context
 [{:file "Compiler.java" :line 6808 :method "analyze" :flags [:tooling :java]}
  {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
- {:file "Compiler.java" :line 3888 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 3820 :method "parse" :flags [:tooling :java]}
  {:file "Compiler.java" :line 7109 :method "analyzeSeq" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
- {:file "Compiler.java" :line 6120 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 5467 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 4029 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 7105 :method "analyzeSeq" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
- {:file "Compiler.java" :line 7095 :method "analyzeSeq" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
- {:file "Compiler.java" :line 38 :method "access$300" :flags [:tooling :java]}
- {:file "Compiler.java" :line 596 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 7107 :method "analyzeSeq" :flags [:tooling :java]}
  {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
  {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
  {:file "Compiler.java" :line 7181 :method "eval" :flags [:tooling :java]}
@@ -79,22 +137,18 @@ clj::brave-do-things=>
  {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
  {:file "AFn.java" :line 22 :method "run" :flags [:java]}
  {:file "" :line -1 :method "run" :flags [:unknown]}]
-clj::brave-do-things=> 
-#'brave-do-things/codger-communication
-clj::brave-do-things=> 
-#'brave-do-things/codger
-clj::brave-do-things=> 
-("Get off my lawn, Billy!!!" "Get off my lawn, Anne-Marie!!!" "Get off my lawn, The Incredible Bulk!!!")
-clj::brave-do-things=> 
-#'brave-do-things/codger
-clj::brave-do-things=> 
-; Execution error (ArityException) at brave-do-things/eval44865 (form-init3338498049570820301.clj:304).
-; Wrong number of args (3) passed to: brave-do-things/codger
-[{:file "AFn.java" :line 429 :method "throwArity" :flags [:java]}
- {:file "AFn.java" :line 40 :method "invoke" :flags [:java]}
- {:file "form-init3338498049570820301.clj" :line 304 :fn "eval44865"  :method "invokeStatic" :flags [:project :repl :clj]}
- {:file "form-init3338498049570820301.clj" :line 304 :fn "eval44865"  :method "invoke" :flags [:dup :project :repl :clj]}
- {:file "Compiler.java" :line 7177 :method "eval" :flags [:tooling :java]}
+clj::hobbit=> 
+#'hobbit/asym-hobbit-body-parts
+clj::hobbit=> 
+; Syntax error compiling at (d:\Users\gabsg\Documents\PayGo\Repo\clojure-basico\codes-testes\exercicios\src\exercicios\hobbit.clj:26:1).
+; Unable to resolve symbol: defn in this context
+[{:file "Compiler.java" :line 6808 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 3820 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7109 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 7181 :method "eval" :flags [:tooling :java]}
  {:file "Compiler.java" :line 7132 :method "eval" :flags [:dup :tooling :java]}
  {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
  {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
@@ -113,27 +167,115 @@ clj::brave-do-things=>
  {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
  {:file "AFn.java" :line 22 :method "run" :flags [:java]}
  {:file "" :line -1 :method "run" :flags [:unknown]}]
-clj::brave-do-things=> 
-#'brave-do-things/codger
-clj::brave-do-things=> 
-#'brave-do-things/favorite-things
-clj::brave-do-things=> 
-"Hi, Doreen, here are my favorite things: gum, shoes, kara-te"
-clj::brave-do-things=> 
-"Hi, Guitarra, here are my favorite things: CS, Ela, Música"
-clj::brave-do-things=> 
-"Hi, pessoal, here are my favorite things: CS, Ela, Música"
-clj::brave-do-things=> 
-#'brave-do-things/favorite-things
-clj::brave-do-things=> 
-"Hi, pessoal, here are my favorite things: C, S"
-clj::brave-do-things=> 
-; Syntax error compiling at (d:\Users\gabsg\Documents\PayGo\Repo\clojure-basico\codes-testes\exercicios\src\exercicios\brave-do-things.clj:321:1).
-; Unable to resolve symbol: my-first in this context
+clj::hobbit=> 
+; Syntax error compiling at (d:\Users\gabsg\Documents\PayGo\Repo\clojure-basico\codes-testes\exercicios\src\exercicios\hobbit.clj:31:1).
+; Unable to resolve symbol: defn in this context
 [{:file "Compiler.java" :line 6808 :method "analyze" :flags [:tooling :java]}
  {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
  {:file "Compiler.java" :line 3820 :method "parse" :flags [:tooling :java]}
  {:file "Compiler.java" :line 7109 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 7181 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7132 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:91" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:437" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:437" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:368" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:84" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:56" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:155" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:190" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "" :line -1 :method "run" :flags [:unknown]}]
+clj::hobbit=> 
+; Syntax error compiling at (d:\Users\gabsg\Documents\PayGo\Repo\clojure-basico\codes-testes\exercicios\src\exercicios\hobbit.clj:26:1).
+; Unable to resolve symbol: defn in this context
+[{:file "Compiler.java" :line 6808 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 3820 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7109 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 7181 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7132 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:91" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:437" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:437" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:368" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:84" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:56" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:155" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:190" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "" :line -1 :method "run" :flags [:unknown]}]
+clj::hobbit=> 
+#'hobbit/asym-hobbit-body-parts
+clj::hobbit=> 
+nil
+clj::hobbit=> 
+#'hobbit/matching-part
+clj::hobbit=> 
+#'hobbit/symmetrize-body-parts
+clj::hobbit=> 
+[{:name "head", :size 3}
+ {:name "left-eye", :size 1}
+ {:name "right-eye", :size 1}
+ {:name "left-ear", :size 1}
+ {:name "right-ear", :size 1}
+ {:name "mouth", :size 1}
+ {:name "nose", :size 1}
+ {:name "neck", :size 2}
+ {:name "left-shoulder", :size 3}
+ {:name "right-shoulder", :size 3}
+ {:name "right-upper-arm", :size 3}
+ {:name "left-upper-arm", :size 3}
+ {:name "chest", :size 10}
+ {:name "back", :size 10}
+ {:name "left-forearm", :size 3}
+ {:name "right-forearm", :size 3}
+ {:name "abdomen", :size 6}
+ {:name "left-kidney", :size 1}
+ {:name "right-kidney", :size 1}
+ {:name "left-hand", :size 2}
+ {:name "right-hand", :size 2}
+ {:name "right-knee", :size 2}
+ {:name "left-knee", :size 2}
+ {:name "right-thigh", :size 4}
+ {:name "left-thigh", :size 4}
+ {:name "right-lower-leg", :size 3}
+ {:name "left-lower-leg", :size 3}
+ {:name "right-achilles", :size 1}
+ {:name "left-achilles", :size 1}
+ {:name "right-foot", :size 2}
+ {:name "left-foot", :size 2}]
+clj::hobbit=> 
+3
+clj::hobbit=> 
+; Syntax error compiling at (d:\Users\gabsg\Documents\PayGo\Repo\clojure-basico\codes-testes\exercicios\src\exercicios\hobbit.clj:56:18).
+; Unable to resolve symbol: dalmatian-list in this context
+[{:file "Compiler.java" :line 6808 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 3888 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7109 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 38 :method "access$300" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6384 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7107 :method "analyzeSeq" :flags [:tooling :java]}
  {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
  {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
  {:file "Compiler.java" :line 6120 :method "parse" :flags [:tooling :java]}
@@ -160,20 +302,132 @@ clj::brave-do-things=>
  {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
  {:file "AFn.java" :line 22 :method "run" :flags [:java]}
  {:file "" :line -1 :method "run" :flags [:unknown]}]
+clj::hobbit=> 
+#'hobbit/dalmatian-list
+clj::hobbit=> 
+("Pongo" "Perdita")
+clj::hobbit=> 
+#'hobbit/x
+clj::hobbit=> 
+0
+clj::hobbit=> 
+1
+clj::hobbit=> 
+#'hobbit/x
+clj::hobbit=> 
+1
+clj::hobbit=> 
+nil
+clj::hobbit=> 
+; Syntax error macroexpanding clojure.core/let at (d:\Users\gabsg\Documents\PayGo\Repo\clojure-basico\codes-testes\exercicios\src\exercicios\hobbit.clj:64:1).
+; [(inc x)] - failed: even-number-of-forms? at: [:bindings] spec: :clojure.core.specs.alpha/bindings
+[{:file "Compiler.java" :line 6972 :method "checkSpecs" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6988 :method "macroexpand1" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7075 :method "macroexpand" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7161 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7132 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:91" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:437" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:437" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:368" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:84" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:56" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:155" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:190" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "" :line -1 :method "run" :flags [:unknown]}]
+clj::hobbit=> 
+; Syntax error macroexpanding clojure.core/let at (d:\Users\gabsg\Documents\PayGo\Repo\clojure-basico\codes-testes\exercicios\src\exercicios\hobbit.clj:64:1).
+; 1 - failed: simple-symbol? at: [:bindings :form :local-symbol] spec: :clojure.core.specs.alpha/local-name
+1 - failed: vector? at: [:bindings :form :seq-destructure] spec: :clojure.core.specs.alpha/seq-binding-form
+1 - failed: map? at: [:bindings :form :map-destructure] spec: :clojure.core.specs.alpha/map-bindings
+1 - failed: map? at: [:bindings :form :map-destructure] spec: :clojure.core.specs.alpha/map-special-binding
+[{:file "Compiler.java" :line 6972 :method "checkSpecs" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6988 :method "macroexpand1" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7075 :method "macroexpand" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7161 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7132 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:91" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:437" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:437" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:368" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:84" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:56" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:155" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:190" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "" :line -1 :method "run" :flags [:unknown]}]
+clj::hobbit=> 
+2
+clj::hobbit=> 
+-1
+clj::hobbit=> 
+-2
+clj::hobbit=> 
+["Pongo" ("Perdita" "Puppy 1" "Puppy 2")]
+clj::hobbit=> 
+; Syntax error compiling at (d:\Users\gabsg\Documents\PayGo\Repo\clojure-basico\codes-testes\exercicios\src\exercicios\hobbit.clj:73:1).
+; Unable to resolve symbol: remaining-asym-parts in this context
+[{:file "Compiler.java" :line 6808 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 38 :method "access$300" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6384 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7107 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 6120 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 5467 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 4029 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7105 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7174 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7132 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:91" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:437" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:437" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:368" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:84" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:56" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:155" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:190" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/gabsg/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "" :line -1 :method "run" :flags [:unknown]}]
+clj::hobbit=> 
+#{1 3 2 9 10 8}
 clj::brave-do-things=> 
-#'brave-do-things/my-first
-clj::brave-do-things=> 
-"PC"
-clj::brave-do-things=> 
-#'brave-do-things/my-first
-clj::brave-do-things=> 
-"bike"
-clj::brave-do-things=> 
-#'brave-do-things/my-first
-clj::brave-do-things=> 
-"PC"
-clj::brave-do-things=> 
-#'brave-do-things/my-first
-clj::brave-do-things=> 
-"PC"
-clj::brave-do-things=> 
+[:a]
+clj::hobbit=> 
+#{:a}
+clj::hobbit=> 
+[:a]
+clj::hobbit=> 
+#{:a}
+[]
+clj::hobbit=> 
+#{:a}
+nil
+clj::hobbit=> 
+#{:a}
+clj::hobbit=> 
+[:a]
+clj::hobbit=> 

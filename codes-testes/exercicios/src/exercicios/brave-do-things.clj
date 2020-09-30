@@ -298,7 +298,7 @@ failed-protagonist-names
   (str "Get off my lawn, " whippersnapper "!!!"))
 
 (defn codger
-   [& whippersnappers]
+  [& whippersnappers]
   (map codger-communication whippersnappers))
 
 (codger "Billy" "Anne-Marie" "The Incredible Bulk")
@@ -324,4 +324,122 @@ failed-protagonist-names
 (my-first ["PC" "bike" "war-axe"])
 
 
+;;Note que agora aparece a segunda coisa
+(defn my2-first
+  [[first-thing first-thing2]] ; Notice that first-thing is within a vector
+  first-thing first-thing2)
+
+(my2-first ["PC" "bike" "war-axe"])
+
+;;Aqui criamos tres parametrosm dois para receber os primeiros dois valores e o terceiro para receber o resto de valores que eu quiser colocar
+(defn chooser
+  [[first-choice second-choice & unimportant-choices]]
+  (println (str "Your first choice is: " first-choice))
+  (println (str "Your second choice is: " second-choice))
+  (println (str "We're ignoring the rest of your choices. "
+                "Here they are in case you need to cry over them: "
+                (clojure.string/join ", " unimportant-choices))))
+
+(chooser ["Marmalade", "Handsome Jack", "Pigpen", "Aquaman", "Spiderman","Superman"])
+
+;; Você também pode desestruturar mapas,listas 
+(defn announce-treasure-location
+  [{lat :lat lng :lng}]
+  (println (str "Treasure lat: " lat))
+  (println (str "Treasure lng: " lng)))
+
+(announce-treasure-location {:lat 28.22 :lng 81.33})
+;;outra forma de fazer
+(defn announce-treasure-location2
+  [{:keys [lat lng]}]
+  (println (str "Treasure lat: " lat))
+  (println (str "Treasure lng: " lng)))
+
+(announce-treasure-location2 {:lat 28.22 :lng 81.33})
+
+;; Voce pode acessar o mapa original utilizando :as keyword
+;; (defn receive-treasure-location
+;;   [{:keys [lat lng] :as treasure-location}]
+;;   (println (str "Treasure lat: " lat))
+;;   (println (str "Treasure lng: " lng))
+
+;;   ;; One would assume that this would put in new coordinates for your ship
+;;   (steer-ship! treasure-location))
+
+
+;;Corpo da função
+;;nesse caso ele só retorna a ultima coisa que é "joe"
+(defn illustrative-function
+  []
+  (+ 1 304)
+  30
+  "joe")
+
+(illustrative-function)
+
+;;Corpo de função usando o if
+
+(defn number-comment
+  [x]
+  (if (> x 6)
+    "Oh my gosh! What a big number!"
+    "That number's OK, I guess"))
+
+(number-comment 5)
+
+(number-comment 7)
+
+;;No clojure as funções são simplesmente aplicadas, independentes e todas são iguais.
+;;
+;;Para criar funções você não necessariamente tem que dar um nome:
+;; (fn [param-list]
+;;   function body)
+;;São chamadas de funções anônimas
+;;Alguns exemplos:
+
+
+(map (fn [name] (str "Hi, " name))
+     ["Darth Vader" "Mr. Magoo"])
+((fn [x] (* x 3)) 8)
+
+
+;; mesmo utilizando a forma "fn" de fazer a função, você ainda pode a nomear
+
+(def my-special-multiplier (fn [x] (* x 3)))
+(my-special-multiplier 12)
+
+;;Outra forma de se fazer uma função anônima é:
+
+(#(* % 3) 8)
+;;ou
+(map #(str "Hi, " %)
+     ["Darth Vader" "Mr. Magoo"])
+
+;; Function call
+(* 8 3)
+;;e 
+;; Anonymous function
+(#(* % 3) 8)
+;;são diferentes
+
+;; o sinal de porcentagem,%, indica o argumento passado para a função.
+;; Se sua função anônima aceita vários argumentos, você pode distingui-los assim:% 1,% 2
+
+(#(str %1 " and " %2) "cornbread" "butter beans")
+;;pode passar rest args tbm, com %&
+(#(identity %&) 1 "blarg" :yip :pipi "s")
+
+;; Returning functions
+;;Você já viu que as funções podem retornar outras funções. As funções retornadas são
+;; fechamentos, o que significa que podem acessar todas as variáveis ​​que estavam no 
+;; escopo quando a função foi criada
+
+(defn inc-maker
+  "Create a custom incrementor"
+  [inc-by]
+  #(+ % inc-by))
+
+(def inc3 (inc-maker 3))
+
+(inc3 7)
 
