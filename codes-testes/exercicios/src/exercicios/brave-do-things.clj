@@ -1,6 +1,6 @@
 (ns brave-do-things  (:gen-class))
 
-;; o "if" funciona como no operador tenário, primeira condição é a verdadeira e edpois é a falsa
+;; o "if" funciona como no operador tenário, primeira condição é a verdadeira e depois é a falsa
 
 (if true
   "By Zeus's hammer!"
